@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Week 4</title>
+
+    <body style="background-color: lightblue;">
+    </body>
+
+    <style>
+        .item {
+            background-color: #FFEAAC;
+            padding: 10px;
+            border:  3px solid black;
+            width: 17px;
+            text-align: center;
+        }
+        .fluid-div {
+            display: inline-block;
+            background: #93C5FD;
+            min-height: 50px;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 1em;
+            position: absolute;
+            left: 30%;
+            top:20%;
+        }
+        .intro {
+            position: absolute;
+            width: 40%;
+            left: 30%;
+            bottom: 35%;
+        }
+        .img-test {
+            float: left;
+            width: 35%;
+            left: 30%;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+   
+
+    <!-- fluid layout -->
+    <div class"fluid-div">
+        <div style="text-align: center;">
+            <div style="width: 100%; display: inline-block;">
+                <div class="fluid-div" style="width: 71.5%; text-align: left; text-indent: 10px; line-height: 3">My Profile</div>
+                <div class="fluid-div" style="width: 9%; line-height: 3">Contacts</div>
+                <div class="fluid-div" style="width: 9%; line-height: 3">About</div>
+                <div class="fluid-div" style="width: 9%; line-height: 3">Home</div>
+            </div>
+        </div>
+    </div>
+
+     <!-- vw -->
+    <div class="intro">
+        <img class="img-test" src="Impulse.png">
+
+            <p>Hello, my name is Toro Chinardi. I'm a 5th semester colleague in the University Bunda Mulia. I'm a 20 Year old Indonesian, I Live in West Jakarta. And my body profile is at best a 5'8 with a slightly chubby belly
+               I have a clothing preference involving black shorts, with any type t-shirt and topped off with a black cap for whenever I'm outside.
+               I'm not exactly a talkactive type of person unless I'm around friends/family or at the comfort of the internet.
+               And now It's time that I'll give you my hobbies.
+            </p>
+    </div>
+
+    <!-- flexbox -->
+        <div class="container" style="height: 100%">
+            <div class="item" style="background-color:DodgerBlue;">X</div>
+            <div class="item" style="background-color:Crimson;">YT</div>
+            <div class="item" style="background-color:Gray;">D</div>
+            <div class="item" style="background-color:Lime;">WA</div>
+        </div>
+
+    <div style="text-align: center; margin-top: 50%">
+        <div style="width: 100%; display: inline-block;">
+            <div class="fluid-div" style="width: 33%; line-height: 3">Hobby</div>
+            <div class="fluid-div" style="width: 33%; line-height: 3">Preferences</div>
+            <div class="fluid-div" style="width: 33%; line-height: 3">Career</div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
